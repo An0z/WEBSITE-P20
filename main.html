@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		 <script src="script.js"></script> 
+	</head>
+
+	<body>
+		<div id="thick-border">
+			<div id="border">
+		<main>
+			<h1> BIENVENUE </h1>
+
+<!-- ORIGINAL CODE BY KONSTANTIN IVANOV
+https://codepen.io/mr-tamagotchi/pen/yzRQba -->
+			<article class="buttonDiv">
+				<a class="button" href="./save.html" target="_blank" rel="noopener noreferrer">
+					<div class="button__ornament button__ornament--vertical">
+						<div class="button__ornament-top-bottom"></div>
+						<div class="button__ornament-left-right"></div>
+					</div>
+					
+					<div class="button__ornament button__ornament--horisontal">
+						<div class="button__ornament-top-bottom"></div>
+						<div class="button__ornament-left-right"></div>
+					</div>
+					
+					<span class="button__label">ENTRER</span>
+				</a>
+			</article>
+
+<!----------------------------------------->
+			<article id="checkArticle">
+				<input class="myCheckbox" type="checkbox" id="option" onclick="checkmyBox()" />
+
+				<label for="option">
+				<span id="checkText">
+					Pour entrer,<br />
+					vous acceptez de garder l'ensemble des informations suivantes secrètes 
+				</span>
+					<svg viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+					<path d="
+M35,33
+l12,42
+l31,-58" stroke-width="4" fill="none" stroke-dasharray="270" stroke-dashoffset="270" ></path>
+				</svg> 
+				
+				</label>
+			</article>
+
+			<article id="identification">
+<svg  viewBox="0 0 960 80">
+<text x="50" y="40" stroke-linecap="round" stroke="#952A29" fill="#952A29"  id="text-logo" class="drawingID" stroke-width="3" font-size="42" transform="rotate(4)">ID</text>
+  </svg>
+			</article>
+		</main>
+	</div>
+		</div>
+
+<script>
+	setId();
+</script>
+	</body>
+</HTML>

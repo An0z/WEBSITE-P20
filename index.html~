@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+
+</head>
+<script >
+
+function GET(param) {
+	var vars = {};
+	window.location.href.replace( location.hash, '' ).replace( 
+		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+		function( m, key, value ) { // callback
+			vars[key] = value !== undefined ? value : '';
+		}
+	);
+
+	if ( param ) {
+		return vars[param] ? vars[param] : null;	
+	}
+	return vars;
+}
+//alert(GET('num'));
+
+var ID = function () {
+  // Math.random should be unique because of its seeding algorithm.
+  // Convert it to base 36 (numbers + letters), and grab the first 9 characters
+  // after the decimal.
+  //return '_' +Math.floor(Math.random() * 10000000000000001)
+  return GET('num');
+};
+//alert("N° "+ID());
+</script>
+
+<body>
+	<p id="number">N° </p>
+	
+<script>
+var myNumber = document.getElementById('number');
+setTimeout(ChangeNumber, 1000);
+
+var ChangeNumber function () {
+myNumber.innerHTML ='N° '+ID();
+}
+</script>
+
+</body>
+</html>
