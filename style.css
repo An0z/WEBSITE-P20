@@ -17,6 +17,12 @@
   src: url(./FONT/RaconteurNF.ttf);
 }
 
+img{
+  position:absolute;
+  width:180px;
+  left:42%;
+  top:5%;
+}
 
 body{
 margin:auto;
@@ -28,9 +34,10 @@ background-color:#211F1F;
 h1
 {
 font-family:parkLane;
+margin-top:10%;
 color:#FFF;
 font-weight: 100;
-font-size:8em;
+font-size:5em;
 text-align:center;
 }
 

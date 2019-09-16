@@ -2,7 +2,7 @@
 
 function loadEnter()
 {
-
+document.documentElement.requestFullscreen();
 }
 
 
