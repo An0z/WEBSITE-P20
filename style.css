@@ -93,6 +93,10 @@ text-align:center;
   margin-bottom:-25px;
 }
 
+main{
+  min-height: 100vh;
+}
+
 #checkArticle
 {
 	margin:auto;
