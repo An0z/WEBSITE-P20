@@ -61,7 +61,7 @@ font-family:parkLane;
 margin:0;
 color:#FFF;
 font-weight: 100;
-font-size:4em;
+font-size:4.1vw;
 text-align:center;
 }
 
@@ -73,7 +73,6 @@ text-align:center;
      bottom: 10px;
      left: 0;
   width: 98.75%;
-  min-height:100%;
   border: 9px solid #F2F1EC;
   margin-top:20px;
   margin-bottom:20px;
@@ -87,7 +86,6 @@ text-align:center;
      bottom: 0;
      left: 0;
   width: 94.31%;
-  min-height:100%;
   border: 4px solid #F2F1EC;
   margin-top:-25px;
   margin-bottom:-25px;
@@ -120,7 +118,7 @@ input[type="checkbox"] {
 label{
 	color:#FFF;
 font-family: poiretOne;
-font-size:2em;
+font-size:2vw;
 cursor:pointer;
 display:block;
 }
@@ -272,7 +270,7 @@ https://codepen.io/mr-tamagotchi/pen/yzRQba*/
 }
 
 #save h1{
-  font-size:6em;
+  font-size:6.5vw;
 }
 
 .lines {
@@ -302,7 +300,7 @@ to{
   align-items: center;
   color: white;
 	margin:auto;
-	font-size: 12em;
+	font-size: 14vw;
 	text-align:center;
 	font-family:raconteurNF;
 }
@@ -320,7 +318,7 @@ to{
 	position: relative;
 	margin:0;
 	margin-top:5%;
-  margin-bottom:2%;
+  margin-bottom:30px;
 	display:block;
 }
 
@@ -329,15 +327,13 @@ to{
 	margin-left:5%;
 	width:50%;
 	display: inline;
-	font-size: 7em;
+	font-size: 7vw;
 	font-family:raconteurNF;
 }
 
 #coord
 {
 	float:right;
-	align-content: right;
-	width:50%;
 	display:inline-block;
 	margin:0;
 	margin-top:-2%;
@@ -347,7 +343,7 @@ to{
 #coord li
 {
 	text-align:right;
-	font-size:5em;
+	font-size:5vw;
 	font-family:parkLane;
 }
 
@@ -410,7 +406,7 @@ to{
 
 #idCanva
 {
-  left:180px;
+  left:9vw;
 }
 
 #bottomText{
