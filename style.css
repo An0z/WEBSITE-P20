@@ -253,8 +253,9 @@ https://codepen.io/mr-tamagotchi/pen/yzRQba*/
 #identification
 {
 	position: absolute;
-  bottom:-18px;
+  bottom:1vh;
 }
+
 
 #text-logo {
   font-family: 'nanumScript';
