@@ -423,7 +423,7 @@ font-size:2em;
 #invitationTitle{
   margin-top:20px;
   margin-bottom: 20px;
-  font-size:5.5em;
+  font-size:8.5vw;
 }
 #centerLogo
 {
@@ -470,7 +470,7 @@ font-size:2em;
 
 #centerLogo svg
 {
-  width:220px;
+  width:19vw;
 }
 
 h2
@@ -478,7 +478,7 @@ h2
   justify-content: center;
   color: white;
   margin:auto;
-  font-size: 7.5em;
+  font-size: 7.2vw;
   font-family:raconteurNF;
   padding-right:10px;
   padding-left:10px;
@@ -493,7 +493,7 @@ h2
 {
   font-family: poiretOne;
   text-transform: uppercase;
-  font-size:3em;
+  font-size:3vw;
   display: block;
   letter-spacing: 10px;
   margin:10px;
